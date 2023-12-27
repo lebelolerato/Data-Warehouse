@@ -1,0 +1,340 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2c693b66-dffb-4d36-8637-d882797e5134" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Bike Stores View</ID>
+  <Name>Bike Stores View</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="10" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3568" scrolltop="-1696" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="19981" y="17611" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Bike Brands Dimension" left="9125" top="-2061" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00006b0a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_BikeBrands" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Daily Sales Dimension" left="17005" top="6491" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00009b070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_DailySales" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Staff Sales Dimension" left="8804" top="14478" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000003090000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_StaffSales" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Store Sales Dimension" left="1432" top="5644" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000003090000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_StoreSales" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Sales Fact table" left="8120" top="4911" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="4593" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000f111000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_FactSalesFinal" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="9016" top="107" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="909" height="5104" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FactSalesFinal-Dim_BikeBrands]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="5" sourceattachpoint="1" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="9525" y="606" />
+                    <point x="9525" y="2758" />
+                    <point x="9316" y="2758" />
+                    <point x="9316" y="4911" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="12413" top="6515" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="4892" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FactSalesFinal-Dim_DailySales]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="5" sourceattachpoint="10" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="17005" y="6914" />
+                    <point x="14859" y="6914" />
+                    <point x="14859" y="6861" />
+                    <point x="12713" y="6861" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="8805" top="9611" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="811" height="5367" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FactSalesFinal-Dim_StaffSales]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="5" sourceattachpoint="0" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="9204" y="14478" />
+                    <point x="9204" y="11151" />
+                    <point x="9316" y="11151" />
+                    <point x="9316" y="9911" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="4132" top="5848" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="4288" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FactSalesFinal-Dim_StoreSales]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="5" sourceattachpoint="11" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="4432" y="6247" />
+                    <point x="6276" y="6247" />
+                    <point x="6276" y="6311" />
+                    <point x="8120" y="6311" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-3568</DiagramViewPortLeft>
+            <DiagramViewPortTop>-1696</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>75</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Bike Stores</DataSourceID>
+  <Schema>
+    <xs:schema id="Bike_x0020_Stores_x0020_View" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Bike_x0020_Stores_x0020_View" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="08f2050c-48e3-48af-ad1a-d60f46325c82">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Dim_BikeBrands" msprop:design-time-name="feaecf8f-51ba-44c2-8a65-86184a05d216" msprop:FriendlyName="Bike Brands Dimension" msprop:DbSchemaName="dbo" msprop:DbTableName="Dim_BikeBrands" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="BrandKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="5a7c7b34-6693-46ef-804d-da53ec229f45" msprop:DbColumnName="BrandKey" msprop:FriendlyName="Brand Key" type="xs:int" />
+                  <xs:element name="brand_id" msprop:design-time-name="54cb1e9a-50c8-48be-a764-fdd7ddff2188" msprop:DbColumnName="brand_id" msprop:FriendlyName="brand id" type="xs:int" minOccurs="0" />
+                  <xs:element name="brand_name" msprop:design-time-name="5e817035-c588-4747-a52b-588d8fa04286" msprop:Description="Name of the bike brand" msprop:DbColumnName="brand_name" msprop:FriendlyName="brand name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TimeOfYear" msprop:design-time-name="108b4941-c58d-4ba9-83a6-91e7760cbc0a" msprop:DbColumnName="TimeOfYear" msprop:FriendlyName="Time Of Year" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="total_sales" msprop:design-time-name="76e17084-9180-4712-9bf0-fa84bd5643ae" msprop:Description="Total sales per bike brand" msprop:DbColumnName="total_sales" msprop:FriendlyName="total sales" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_DailySales" msprop:design-time-name="9ab2aaf4-8ede-4fb0-8080-8f4dab18215c" msprop:FriendlyName="Daily Sales Dimension" msprop:DbSchemaName="dbo" msprop:DbTableName="Dim_DailySales" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TimeKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="d2e17290-3ebc-429f-9673-74c1fb3364d6" msprop:DbColumnName="TimeKey" msprop:FriendlyName="Time Key" type="xs:int" />
+                  <xs:element name="sales_date" msprop:design-time-name="41dc073e-b712-4b1f-b496-5c5a6f63acd0" msprop:DbColumnName="sales_date" msprop:FriendlyName="sales date" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="total_sales" msprop:design-time-name="342ed524-787a-4880-85a2-073b0d949352" msprop:Description="Total sales for each day" msprop:DbColumnName="total_sales" msprop:FriendlyName="total sales" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_StaffSales" msprop:design-time-name="c12216b9-12ae-4c86-962a-f7b37fd92102" msprop:FriendlyName="Staff Sales Dimension" msprop:DbSchemaName="dbo" msprop:DbTableName="Dim_StaffSales" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="StaffKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="abaa0e69-597b-437f-a8c1-dc774f2b6bca" msprop:DbColumnName="StaffKey" msprop:FriendlyName="Staff Key" type="xs:int" />
+                  <xs:element name="staff_id" msprop:design-time-name="d97a8e57-d11c-4fb9-9ecc-dcda7251a30e" msprop:DbColumnName="staff_id" msprop:FriendlyName="staff id" type="xs:int" minOccurs="0" />
+                  <xs:element name="staff_name" msprop:design-time-name="2a8ac322-49a1-4087-916f-848c55061d24" msprop:DbColumnName="staff_name" msprop:FriendlyName="staff name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="total_sales" msprop:design-time-name="34dbec43-08a0-41e0-90df-8248ae4a9380" msprop:Description="Total sales generated by each employee" msprop:DbColumnName="total_sales" msprop:FriendlyName="total sales" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_StoreSales" msprop:design-time-name="f3e6de24-d6c4-4d2e-8c0d-fdca4a2e7939" msprop:FriendlyName="Store Sales Dimension" msprop:DbSchemaName="dbo" msprop:DbTableName="Dim_StoreSales" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="StoreKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="3db52ff7-cc89-4adc-8576-8466966e5409" msprop:DbColumnName="StoreKey" msprop:FriendlyName="Store Key" type="xs:int" />
+                  <xs:element name="store_id" msprop:design-time-name="4117b8c7-e669-498a-90e8-fab9c16c5e75" msprop:DbColumnName="store_id" msprop:FriendlyName="store id" type="xs:int" minOccurs="0" />
+                  <xs:element name="store_name" msprop:design-time-name="cd440e73-86ca-4763-a793-d5281d55e746" msprop:DbColumnName="store_name" msprop:FriendlyName="store name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="total_sales" msprop:design-time-name="3b2ce133-cbf1-4b74-87d5-d2c46c53b93d" msprop:Description="Total sales for each store per time period" msprop:DbColumnName="total_sales" msprop:FriendlyName="total sales" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_FactSalesFinal" msprop:design-time-name="02892eed-a7fa-4965-8f1c-bf33c845d699" msprop:FriendlyName="Sales Fact table" msprop:DbSchemaName="dbo" msprop:DbTableName="FactSalesFinal" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="OLE_x0020_DB_x0020_Source.BrandKey" msprop:design-time-name="a20daf42-7219-4fec-ab18-44f31c3d4dea" msprop:DbColumnName="OLE DB Source.BrandKey" msprop:FriendlyName="BrandKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="brand_id" msprop:design-time-name="7a8121d7-3c46-438c-b45a-131c1d782610" msprop:DbColumnName="brand_id" msprop:FriendlyName="brand id" type="xs:int" minOccurs="0" />
+                  <xs:element name="brand_name" msprop:design-time-name="1b9a48a7-83d4-4352-a12b-012d2eabb19e" msprop:DbColumnName="brand_name" msprop:FriendlyName="brand name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TimeOfYear" msprop:design-time-name="e351dae5-8eac-49ed-9fd8-c8418bb24c65" msprop:DbColumnName="TimeOfYear" msprop:FriendlyName="Time Of Year" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="OLE_x0020_DB_x0020_Source.StaffKey" msprop:design-time-name="04596e16-e32c-4649-aa62-3e25770fe915" msprop:DbColumnName="OLE DB Source.StaffKey" msprop:FriendlyName="Staff Key" type="xs:int" minOccurs="0" />
+                  <xs:element name="staff_id" msprop:design-time-name="e9449e59-5b4c-44f3-b46a-0b6726092106" msprop:DbColumnName="staff_id" msprop:FriendlyName="staff id" type="xs:int" minOccurs="0" />
+                  <xs:element name="staff_name" msprop:design-time-name="97586f05-a4ef-47af-a61d-45f1bb98f8dc" msprop:DbColumnName="staff_name" msprop:FriendlyName="staff name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="OLE_x0020_DB_x0020_Source.StoreKey" msprop:design-time-name="0375be96-46df-44e7-b682-b7bbf2f07a1a" msprop:DbColumnName="OLE DB Source.StoreKey" msprop:FriendlyName="Store Key" type="xs:int" minOccurs="0" />
+                  <xs:element name="store_id" msprop:design-time-name="3b8b7a28-5b94-4daa-a3e8-3485c9917d98" msprop:DbColumnName="store_id" msprop:FriendlyName="store id" type="xs:int" minOccurs="0" />
+                  <xs:element name="store_name" msprop:design-time-name="339f4157-9c03-4099-89cc-92205a90a6cb" msprop:DbColumnName="store_name" msprop:FriendlyName="store name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="BIKESALES" msprop:design-time-name="bf5f34c9-726e-4905-8d9e-344e79a3b5cc" msprop:DbColumnName="BIKESALES" msprop:FriendlyName="BIKESALES" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="STAFFSALES" msprop:design-time-name="c7db92c8-d06f-4ed7-936f-86a4889c8d00" msprop:DbColumnName="STAFFSALES" msprop:FriendlyName="STAFFSALES" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="STORESALES" msprop:design-time-name="61cd12a8-879a-4d16-aa54-7cbf8976e9e2" msprop:DbColumnName="STORESALES" msprop:FriendlyName="STORESALES" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="TimeKey" msprop:design-time-name="c82dce97-00a8-4832-ad71-4cd76899c19e" msprop:DbColumnName="TimeKey" msprop:FriendlyName="TimeKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="sales_date" msprop:design-time-name="fbd58e38-1a40-4588-8fcb-f129c7903d50" msprop:DbColumnName="sales_date" msprop:FriendlyName="sales_date" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="total_sales" msprop:design-time-name="1ddf4ad1-f937-4f89-ae25-70a79c5d7f8d" msprop:DbColumnName="total_sales" msprop:FriendlyName="total_sales" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Bike_x0020_brands.BrandKey" msprop:design-time-name="ee20f85c-486a-4ace-bfd8-273fcee606e4" msprop:DbColumnName="Bike brands.BrandKey" msprop:FriendlyName="Bike brands.BrandKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="Staff_x0020_Sales.StaffKey" msprop:design-time-name="dae2f3db-841d-47a0-b597-b95593750a55" msprop:DbColumnName="Staff Sales.StaffKey" msprop:FriendlyName="Staff Sales.StaffKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="Store_x0020_Sales.StoreKey" msprop:design-time-name="b7fcce43-a0d7-42d9-bf17-43a8ee894393" msprop:DbColumnName="Store Sales.StoreKey" msprop:FriendlyName="Store Sales.StoreKey" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_BikeBrands" />
+          <xs:field xpath="BrandKey" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_DailySales_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_DailySales" />
+          <xs:field xpath="TimeKey" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_StaffSales_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_StaffSales" />
+          <xs:field xpath="StaffKey" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_StoreSales_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_StoreSales" />
+          <xs:field xpath="StoreKey" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="FactSalesFinal-Dim_BikeBrands" msdata:parent="dbo_Dim_BikeBrands" msdata:child="dbo_FactSalesFinal" msdata:parentkey="BrandKey" msdata:childkey="Bike_x0020_brands.BrandKey" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="FactSalesFinal-Dim_DailySales" msdata:parent="dbo_Dim_DailySales" msdata:child="dbo_FactSalesFinal" msdata:parentkey="TimeKey" msdata:childkey="TimeKey" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="FactSalesFinal-Dim_StaffSales" msdata:parent="dbo_Dim_StaffSales" msdata:child="dbo_FactSalesFinal" msdata:parentkey="StaffKey" msdata:childkey="Staff_x0020_Sales.StaffKey" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="FactSalesFinal-Dim_StoreSales" msdata:parent="dbo_Dim_StoreSales" msdata:child="dbo_FactSalesFinal" msdata:parentkey="StoreKey" msdata:childkey="Store_x0020_Sales.StoreKey" msprop:IsLogical="True" msprop:Description="" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <Bike_x0020_Stores_x0020_View xmlns="" />
+  </Schema>
+</DataSourceView>
